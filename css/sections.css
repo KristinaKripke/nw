@@ -1,0 +1,45 @@
+.graybox__all {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.graybox {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+}
+
+.graybox__img {
+    display: flex;
+    width: 50%;
+}
+.graybox__img > img {
+    width: 100%;
+    
+}
+.div__prie__foto {
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.tekstaspriefoto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 8px;
+    line-height: 2.2rem;
+    align-items: center;
+}
+
+.shophandbags {
+    color: #333;
+    width: fit-content;
+    text-align: center;
+}
+.shophandbags:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
