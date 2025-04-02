@@ -178,11 +178,15 @@ footer {
     font-size: 25px;
 }
 
+.bank {
+    width: 15%;
+}
+
 .bank > img {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
-    margin-right: 2px;
+    margin-right: 5px;
     width: 60px;
     height: 40px;
     background-color: #fff;
