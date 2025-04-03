@@ -14,7 +14,7 @@ footer {
 }
 
 .search-foot {
-    height: 25px;
+    height: 1.6rem;
     width: 100%;
 }
 
@@ -25,7 +25,7 @@ footer {
 
 .footers-left > p {
     width: 100%;
-    font-size: 15px;
+    font-size: 0.9rem;
     text-transform: uppercase;
     margin-bottom: 7%;
 }
@@ -44,7 +44,7 @@ footer {
     background-color: black;
     color: whitesmoke;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 0.5rem;
     margin-right: 5%;
 }
 
@@ -75,7 +75,7 @@ footer {
 
 .care {
     width: 100%;
-    font-size: 15px;
+    font-size: 0.9rem;
     text-transform: uppercase;
     margin-bottom: 9%;
 }
@@ -92,7 +92,7 @@ footer {
 .footer-links a {
     display: flex;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 0.9rem;
     color: #000;
 }
 
@@ -113,7 +113,7 @@ footer {
 .btn {
     border: none;
     padding: 8px 15px;
-    font-size: 16px;
+    font-size: 1rem;
     margin-bottom: 4%;
     cursor: pointer;
     width: 100%;
@@ -128,13 +128,13 @@ footer {
 .order-assistance {
     user-select: none;
     width: 100%;
-    font-size: 15px;
+    font-size: 0.9rem;
     text-transform: uppercase;
     margin-bottom: 4%;
 }
 
 .accessibility > p {
-    font-size: 15px;
+    font-size: 0.9rem;
     margin-top: 10px;
     text-transform: uppercase;
 }
@@ -142,7 +142,7 @@ footer {
 .accessibility a {
     display: flex;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 0.75rem;
     margin-top: 3%;
     color: #000;
 }
@@ -164,11 +164,12 @@ footer {
 }
 
 .socials .fa {
-    font-size: 25px;
+    font-size: 1.56rem;
 }
 
 .bank {
     display: flex;
+    justify-content: center;
     width: 15%;
     margin: 15px 0;
 }
@@ -178,8 +179,8 @@ footer {
     justify-content: right;
     align-items: center;
     margin-right: 5px;
-    width: 60px;
-    height: 40px;
+    width: 3.75rem;
+    height: 2.5rem;
     background-color: #fff;
 }
 .bank > img:first-child {
