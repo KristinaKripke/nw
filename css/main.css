@@ -46,6 +46,7 @@ header {
     text-transform: uppercase;
     text-decoration: none;
     color: #333;
+    width: fit-content;
 }
 .header__nav {
     display: flex;
@@ -272,3 +273,6 @@ h2 {
 .paskutineft {
     width: 100%;
 }
+
+
+

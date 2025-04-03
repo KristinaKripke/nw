@@ -182,3 +182,6 @@ footer {
     height: 40px;
     background-color: #fff;
 }
+.bank > img:first-child {
+    scale: 0.8;
+}
