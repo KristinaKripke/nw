@@ -55,11 +55,15 @@
     .fa-user-circle {
         display: contents;
     }
+    .pirma,
+    .antra,
+    .trecia,
+    .ketvirta {
+        margin-top: 1rem;
+    }
 
-
+    
 }
-
-
 
 @media (max-width: 39rem) {
     .batai__row {
@@ -115,6 +119,37 @@
     }
     .subfooter {
         justify-content: center;
+    }
+    .pirma,
+    .antra,
+    .trecia,
+    .ketvirta {
+        margin-top: 0.5rem;
+    }
+    .sign__in,
+    .sign__up {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    .sign__up {
+        margin-top: 1.2rem;
+    }
+    .sign__in p,
+    .sign__up p {
+        display: flex;
+        line-height: normal;
+    }
+    .sign__up a {
+        line-height: normal;
+    }
+    .forgot {
+        font-size: 0.6rem;
+    }
+    .email__pass,
+    .sign__in,
+    .sign__up {
+        width: 70%;
     }
 }
 
@@ -175,6 +210,11 @@
     }
     .prekes p {
         font-size: 0.62rem;
+    }
+    .email__pass,
+    .sign__in,
+    .sign__up {
+        width: 90%;
     }
 }
 
