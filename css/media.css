@@ -61,8 +61,6 @@
     .ketvirta {
         margin-top: 1rem;
     }
-
-    
 }
 
 @media (max-width: 39rem) {
@@ -151,6 +149,21 @@
     .sign__up {
         width: 70%;
     }
+
+    .top__section {
+        flex-direction: column;
+    }
+.top__section > div {
+    width: 100%;
+}
+    .products__left__column,
+    .products__right__column  {
+        width: 100%;
+    }
+
+    .three__foto__inner a {
+        font-size: 0.7rem;
+    }
 }
 
 @media (max-width: 31rem) {
@@ -215,6 +228,13 @@
     .sign__in,
     .sign__up {
         width: 90%;
+    }
+    .three__foto__inner {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .underline p {
+        font-size: 0.7rem;
     }
 }
 
